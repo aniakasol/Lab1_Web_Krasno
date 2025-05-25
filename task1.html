@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>who are you?</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Введіть свої дані:</legend>
+            <label for="fname">Ім'я:</label><br>
+            <input type="text" id="fname" name="fname" required/><br>
+            <label for="lname">Прізвище:</label><br>
+            <input type="text" id="lname" name="lname" required/><br>
+            <label for="mname">По-батькові:</label><br>
+            <input type="text" id="mname" name="mname" required/>
+            <hr>
+            <label for="gender">Стать: </label><br>
+            <select id="gender" name="gender" required>
+                <option value="male">чоловіча</option>
+                <option value="female">жіноча</option>
+                <option value="unspecified">не зазначено</option>
+            </select><br>
+            <label for="birthdate">Дата народження:</label><br>
+            <input type="date" id="birthdate" name="birthdate" max="2007-01-01" min="1925-01-01" required>
+            <hr>
+            <label for="email">Ел.пошта:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="tel">Телефон:</label><br>
+            <input type="tel" name="tel" id="tel">
+            <hr>
+            <label for="country">Країна:</label><br>
+            <input type="text" id="country" name="country" required><br>
+            <label for="city">Місто:</label><br>
+            <input type="text" id="city" name="city" required>
+            <hr>
+            <label for="color">Колір фону:</label><br>
+            <input type="color" name="color" id="color" value="#F0F8FF"><br>
+            <textarea name="comment" rows="4" cols="50">Коментар</textarea>
+            <hr>
+            <input type="submit" value="OK">
+        </fieldset>
+    </form>
+    
+</body>
+
+</html>
